@@ -46,24 +46,6 @@ The launcher is built with Python and uses minecraft-launcher-lib to install and
 
 ---
 
-# Screenshots
-
-Screenshots are stored in .github/assets/.
-
-## Home
-
-[View Home Screenshot](https://github.com/tomiDev2017/SimpleLauncher/blob/main/.github/assets/home.png)
-
-## Installations
-
-[View Installations Screenshot](https://github.com/tomiDev2017/SimpleLauncher/blob/main/.github/assets/installations.png)
-
-## New Installation
-
-[View New Installation Screenshot](https://github.com/tomiDev2017/SimpleLauncher/blob/main/.github/assets/new-installation.png)
-
----
-
 # Installation
 
 ## Requirements

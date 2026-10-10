@@ -65,7 +65,7 @@ The launcher is built with Python and uses minecraft-launcher-lib to install and
 
 ## Run SimpleLauncher
 
-    python main.py
+    python SimpleLauncher.py
 
 ---
 
@@ -79,7 +79,7 @@ SimpleLauncher can be compiled into a standalone Windows executable using PyInst
 
 ## Build
 
-    pyinstaller --onefile --windowed --name "SimpleLauncher" main.py
+    pyinstaller --onefile --windowed --name "SimpleLauncher" SimpleLauncher.py
 
 The finished executable will be located at:
 
@@ -166,7 +166,7 @@ Minecraft installation and launching are handled through minecraft-launcher-lib.
 # Project Structure
 
     SimpleLauncher/
-    ├── main.py
+    ├── SimpleLauncher.py
     ├── requirements.txt
     ├── README.md
     └── .gitignore
@@ -235,11 +235,11 @@ Install dependencies:
 
 Run the launcher:
 
-    python main.py
+    python SimpleLauncher.py
 
 After making changes, rebuild the executable:
 
-    pyinstaller --onefile --windowed --name "SimpleLauncher" main.py
+    pyinstaller --onefile --windowed --name "SimpleLauncher" SimpleLauncher.py
 
 ---
 
